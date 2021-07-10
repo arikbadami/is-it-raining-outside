@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/is-it-raining-outside/static/css/main.b2be720e.chunk.css",
+    "main.js": "/is-it-raining-outside/static/js/main.a8184e3c.chunk.js",
+    "main.js.map": "/is-it-raining-outside/static/js/main.a8184e3c.chunk.js.map",
+    "runtime-main.js": "/is-it-raining-outside/static/js/runtime-main.8b397651.js",
+    "runtime-main.js.map": "/is-it-raining-outside/static/js/runtime-main.8b397651.js.map",
+    "static/js/2.8c9818bf.chunk.js": "/is-it-raining-outside/static/js/2.8c9818bf.chunk.js",
+    "static/js/2.8c9818bf.chunk.js.map": "/is-it-raining-outside/static/js/2.8c9818bf.chunk.js.map",
+    "index.html": "/is-it-raining-outside/index.html",
+    "static/css/main.b2be720e.chunk.css.map": "/is-it-raining-outside/static/css/main.b2be720e.chunk.css.map",
+    "static/js/2.8c9818bf.chunk.js.LICENSE.txt": "/is-it-raining-outside/static/js/2.8c9818bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b397651.js",
+    "static/js/2.8c9818bf.chunk.js",
+    "static/css/main.b2be720e.chunk.css",
+    "static/js/main.a8184e3c.chunk.js"
+  ]
+}
