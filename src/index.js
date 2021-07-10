@@ -2,7 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/is-it-raining-outside/service-worker.js',{
+    scope: "/is-it-raining-outside/"
+  })
+  .then((reg)=>{console.log('Service Worker Registered', reg)})
+  .catch((err)=>{console.log('Registration Failed', err)})
+}
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,5 +17,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-serviceWorker.register();
