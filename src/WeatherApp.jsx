@@ -1,7 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import axios from 'axios';
 import WeatherDisplay from './WeatherDisplay'
-import './app.scss'
 
 const WeatherApp = () => {
     const [location, setLocation] = useState(false);
