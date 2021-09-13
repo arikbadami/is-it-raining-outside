@@ -14,12 +14,11 @@ const WeatherApp = () => {
         "Haze": "Hazy outside, perhaps it wouldn't be the worst idea to carry an umbrella",
         "Sunny": "The sun is out, birds are chirping. What a lovely day to be alive",
         "Rain": "Yes, it is raining ! Don't wake the old man up",
-        "Drizzle": "Light drizzle, could get heavy could stop, who knows ? This is a free app lower your expectations",
-        "Thunderstorm": "Fuckin hell, There's a storm coming Mr. Wayne ! Get inside & lock the doors",
-        "Snow": "Its snowing outside ! Time to make some snow angles",
+        "Drizzle": "Light drizzle, could get heavy could stop, who knows ?",
+        "Thunderstorm": "There's a storm coming Mr. Wayne",
+        "Snow": "Brace yourself. Winter is Here",
         "Clear": "Clear outside, nothing special to report about",
         "Clouds": "The Clouds are out, but are they rain clouds ? It's a secret"
-
     }
 
     useEffect(()=>{
