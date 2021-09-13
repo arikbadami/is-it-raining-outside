@@ -3,7 +3,7 @@ import SplashScreen from './SplashScreen';
 import './app.scss';
 
 const App = () => {
-	const isPWA = (window.matchMedia('(display-mode: standalone)').matches) || true;
+	const isPWA = (window.matchMedia('(display-mode: standalone)').matches);
 	const iOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent);
 
 	if(isPWA){
